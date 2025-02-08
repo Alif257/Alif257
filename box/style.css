@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    height: 90vh;
+    width: 99vw;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.box {
+    height: 100%;
+    background-color: rgb(38, 199, 164);
+    text-align: center;
+}
+
+.box:nth-child(odd) {
+    flex: 1;
+    min-height: 40px;
+}
